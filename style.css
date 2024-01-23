@@ -1,0 +1,156 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+} */
+
+.panel {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fixture {
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    margin-bottom: 5px;
+}
+
+/* *{
+  margin: 0;
+} */
+
+h1 {
+    text-align: center;
+   }
+   
+   #game-board {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     gap: 30px;
+   }
+   
+   #game-board input {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+        border: none;
+        border-radius: 3px;
+        /* font-family: 'Roboto', sans-serif; */
+        font-family: sans-serif;
+        text-transform: uppercase;
+   }
+
+    #game-board input:focus {
+      outline: none;
+    }
+
+   .letter-box {
+     border: 2px solid rgb(166, 166, 166);
+     border-radius: 10px;
+     margin: 2px;
+     font-size: 2.5rem;
+     /* font-family: 'Roboto', sans-serif; */
+     font-family: sans-serif;
+     font-weight: 700;
+     height: 3rem;
+     width: 3rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-transform: uppercase;
+   }
+   
+   .filled-box {
+     border: 2px solid rgb(69, 69, 69);
+   }
+   
+   .letter-row {
+     display: flex;
+   }
+   
+   .trial {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+   }
+
+   #keyboard-cont {
+     margin: 1rem 0;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+   
+   #keyboard-cont div {
+     display: flex;
+     /* border-radius: 5px; */
+   }
+   
+   .second-row {
+     margin: 0.5rem 0;
+   }
+   
+   .keyboard-button {
+    border: 0.5px solid rgb(166, 166, 166);
+    border-radius: 5px;
+     font-size: 1rem;
+     font-weight: 700;
+     padding: 0.5rem;
+     margin: 0 2px;
+     cursor: pointer;
+     text-transform: uppercase;
+   }
+
+
+   #footer {
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+}
+
+/* Social media icons styling */
+.social-media a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 28px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* .social-media a:hover {
+    color: #007bff;
+} */
+
+/* Buy me a coffee link styling */
+#footer p a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#footer p a:hover {
+    text-decoration: underline;
+}
